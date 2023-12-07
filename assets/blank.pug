@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Template
+    style
+      include styles.css
+  body
+    .container
+      .cover(style=`background-image: url('${background}')`)
+        img.icon(src='data:image/png;base64, '.concat(image), alt="image")
